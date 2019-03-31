@@ -1,4 +1,8 @@
 # Thesis
+
+## Thesis subject
+For the next three months I will be working on creating a working simulation of public transport in the city of Amsterdam. To evaluate the model, a year of GVB data is available. The goal of this project is to create a simulation that is close to reality, but is also generic enough to use for decision making and planning. This can be described as a classis over-/underfitting problem. It might be necessary to distinguish between seasons, but fitting the model to represent every single day would be overfitting of course. 
+
 ## Preferred way of working
 Throughout my Bachlor degree and Master degree in Data Science, I have learned to work with Python for many different projects. Python is a good language to use for Data Science and has been my go to language for years now. I feel comfortable working with Python and I feel comfortable with it. For my thesis at the municipality I will use Python as well. Since I will be working on simulation and network problems, Python and Networkx are very good options. To make sure the end result looks nice, I can also use my experience in HTML/CSS and JavaScript. 
 
