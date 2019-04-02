@@ -1,7 +1,7 @@
 # Logbook
 
 ## Week1
-In the first week I've had a meeting with my UvA supervisor to confirm the plans for my thesis. I made plans for the first month so I will be able to stick to the schedule thas was made for the thesis design (table below). The focus of the first week was on choosing what related work to incoorporate and use for the rest of the research.
+In the first week I've had a meeting with my UvA supervisor to confirm the plans for my thesis. I made plans for the first month so I will be able to stick to the schedule thas was made for the thesis design (table below). The focus of the first week was on choosing what related work to incoorporate and use for the rest of the research. Literature study was done on agent-based simulation, simulated annealing and Dijkstra's shortest path implementations for route choice behaviour. With networkx the data was explored and a first network structure was created from this data to get more familiar with the data and networkx. 
 
 | **Week**           | **Task**                                             |
 |--------------------|------------------------------------------------------|
