@@ -12,7 +12,6 @@ The code is based on the Transport Network Analysis module of TU Delft. All code
 * Data Analysis - Occupancy.ipynb: this notebook is used to analyse the occupation of all different vehicles in the simulation.
 * Data Analysis - Sub-trip.ipynb: this notebook is used to compare the sub-trips in the simulation with all sub-trips in the GVB data.
 * Data Analysis - Trip.ipynb: this notebook is used to compare the origin and destinations between the simulation and GVB data.
-* Example 14 - Pick up variable load.ipynb: this notebook was provides by TU Delft as a basis for this thesis project.
 
 ### Data folder
 * lines.csv: all lines that were used with their numbers, directions, routes, frequency and durations.
@@ -20,6 +19,12 @@ The code is based on the Transport Network Analysis module of TU Delft. All code
 * stations.csv: all stations used in the network with name and coordinates. Capacity is an extra column that can be used in future iterations.
 * destination csv files: all possible destinations with probabilities for all days.
 * origin csv files: all possible origins with probabilities for all days.
+
+### Results folder
+* There are four seperate result folders. Scenario 1 - Weekend, Scenario 1 - Week, Scenario 2 - Weekend, Scenario 2 - Week
+* Within these folders the results are stored per hour
+* Within every hour folder there are three files which store results for all iterations of a simulation. These files store the origins, destinations and origin-destination pairs within a trip.
+* For every iteration, passenger files are stored for logging and debugging purposes. These are not really used unless there is a problem.
 
 ## Future research
 1. Implement this method for the complete network. This research should be focused on the heuristics of route calculation. Since there will be a lot more options and overlapping lines, the route calculation needs to be improved. By using heuristics and implementing new rules, it can be tested how well the model performs as a baseline for the complete network.
